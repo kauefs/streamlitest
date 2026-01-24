@@ -6,6 +6,7 @@ import    seaborn            as   sns
 import matplotlib.pyplot     as   plt
 import     plotly.express    as   px
 # Settings:
+st.secrets['cookie_secret']
 pd.options.plotting.matplotlib.register_converters = True
 plt.rcParams[  'figure.autolayout']    =             True
 plt.rcParams[    'font.family'    ]    =                                         'sans-serif'
@@ -35,10 +36,10 @@ st.sidebar.markdown('''
 
 [![License    ](https://img.shields.io/badge/Apache--2.0-D22128?style=flat&logo=apache&logoColor=CB2138&label=License&labelColor=6D6E71&color=D22128)](https://www.apache.org/licenses/LICENSE-2.0)
 
-[![ƊⱭȾɅViƧi🧿Ƞ](https://img.shields.io/badge/ƊⱭȾɅViƧi🧿Ƞ&trade;-0065FF?style=plastic&label=&copy;2025&labelColor=0065FF)](https://datavision.one/)
+[![ƊⱭȾɅViƧi🧿Ƞ](https://img.shields.io/badge/ƊⱭȾɅViƧi🧿Ƞ&trade;-0065FF?style=plastic&label=&copy;2026&labelColor=0065FF)](https://datavision.one/)
                     ''')
 # MAIN:
-state( )
+state      ( )
 st.title('ƊⱭȾɅViƧi🧿Ƞ&trade;')
-st.divider( )
+st.divider ( )
 # @st.cache_data
