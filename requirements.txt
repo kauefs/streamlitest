@@ -1,4 +1,4 @@
-pip
+-U pip
 certifi
 ta
 numpy
