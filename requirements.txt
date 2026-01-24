@@ -9,7 +9,7 @@ matplotlib
 seaborn
 #pydeck
 plotly
-#altair
+altair<5
 #bokeh==2.4.3
 #yfinance
 #mplfinance
